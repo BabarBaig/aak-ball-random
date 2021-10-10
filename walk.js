@@ -57,7 +57,7 @@ const area = {
     // Hint: use the Javascript parseInt() function to convert a string value to integer
     newBall.width = parseInt(newBall.element.style.width);
     newBall.height = parseInt(newBall.element.style.height);
-  
+
     // TODO: use the Javascript appendChild() function to add newBall.element to the area element
     area.element.appendChild(newBall.element);
 
@@ -67,7 +67,8 @@ const area = {
   // TODO: implement the update function
   function update(ball, x, y) {
     // TODO: use the moveTo() function to move the ball
-    // TODO: use the Javascript setTimeout() method to call changeDirectionIfNecessary() and update() every 16ms
+    // TODO: use the Javascript setTimeout() method to call changeDirectionIfNecessary() and update()
+    //       every 16ms
   }
   
   // Uncomment these lines for step 1 of the activity
@@ -83,10 +84,9 @@ const area = {
 
   var elm = document.getElementsByClassName("ball");
   console.log(elm.length)
-  
+
   // Uncomment these lines for step 2 of the activity
   // This is expected to make the 3 balls move around the area div
-  
   // update(ball1, 70, 0);
   // update(ball2, 20, 200);
   // update(ball3, 300, 330);
